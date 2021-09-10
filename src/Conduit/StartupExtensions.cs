@@ -17,7 +17,7 @@ namespace Conduit
         {
             services.AddOptions();
 
-            var signingKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("somethinglongerforthisdumbalgorithmisrequired"));
+            var signingKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("wrintingsomeinteresting"));
             var signingCredentials = new SigningCredentials(signingKey, SecurityAlgorithms.HmacSha256);
             var issuer = "issuer";
             var audience = "audience";
