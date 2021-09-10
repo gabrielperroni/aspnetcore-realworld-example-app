@@ -89,7 +89,7 @@ namespace Conduit
                     },
                     Array.Empty<string>()}
                 });
-                x.SwaggerDoc("v1", new OpenApiInfo { Title = "RealWorld API", Version = "v1" });
+                x.SwaggerDoc("v1", new OpenApiInfo { Title = "RealWorld API - Peter:Gabriel Sync", Version = "v1" });
                 x.CustomSchemaIds(y => y.FullName);
                 x.DocInclusionPredicate((version, apiDescription) => true);
                 x.TagActionsBy(y => new List<string>()
